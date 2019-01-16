@@ -22,25 +22,52 @@
 #  ~~~~~~~~~~~~~~~~~\__\/~~~~~~~~~\__\/~~~~~~~~~\__\/~~~~~~~~~~~~~~~~~~
 
 #you should be able to:
-##load, save and create characters
+##load your own categories and questions
 ##load questions by subject
 ##add new questions
 ##gain experience for adding an answering questions
 #
-##external files required are trivia.json and masks.json
-import pprint, time, random, json
 
+
+####  TODO
+####
+#
+####  3. enter turns
+####
+####
+####
+
+
+##      external files required are trivia.json and masks.json
+import time, random, json
+
+
+turncount=0
+
+total_score=0
+
+#        load names
+#        get name
+##       if questions:
+##          more questions?
+##       else:
+##          add questions
+####     if story:
+####        here are stories; new story?
+####     else:
+####        new story
+#####    game()
+######   ending()
 def start():
-    global turncount, masks, character, quotes
+    global masks, character
         #initializing values
-    turncount=0
-        #the values of the game are surprise, growth, collaboration, experimentation, learning, and thoughtfulness.
-    #load_quotes()
 
-    #random_quote()
-    #enter_quote()
-    #save_quotes()
+        #the values of the game are surprise, growth, collaboration, experimentation, learning, and thoughtfulness.
+    load_trivia()
+
     start_menu()
+
+# The simplest version of this game wouldn't have a list of players--the downloads of the file, with the saves, would be like a new player.
     #load_location()
     turn()
     exit()
@@ -106,24 +133,24 @@ def menu():
 #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 def turn():
-    global masks, character, turncount
+    global masks, character, turncount, score
     #print(" the turn turns")
     turncount+=1
+    print (" ")
     print ("turn", turncount)
     #for i in character:
     #    print ("Your character's",i,"is",character[i])
     time.sleep(1)
     turn_menu()
     #next step:
-
+    #trivia()
     turn()
 
 def turn_menu():
     ans=str(input("Do you want to [a]nswer a trivia question, or [s]ave and quit?"))
     if ans=="a":
         trivia()
-    elif ans=="t":
-        enter_text()
+
     elif ans=="s":
         save_mask()
         #save_locations()
@@ -148,8 +175,11 @@ def add_question():
             pass
 
 def score():
-    global character
+    global character, turncount, total_score
     ans=int(input("enter your score (1-6)__"))
+    total_score+=ans
+    avg_score= total_score/turncount
+    print ("your average score is now", avg_score)
     character["xp"]+=ans
     print ("you now have", character["xp"], "xp")
     time.sleep(1)
@@ -252,7 +282,7 @@ def trivia():
     #get question
     #get answer
     #score
-    load_trivia()
+    #load_trivia()
     ask_trivia("all")
     time.sleep(.5)
     score()
@@ -293,17 +323,23 @@ def trivia():
 
 
 def load_mask():
-	global masks, character
-	with open('masks.json', "r") as readfile:
-		masks = json.load(readfile)
-	for i in masks:
+    global masks, character
+    with open('masks.json', "r") as readfile:
+        masks = json.load(readfile)
+    print ("existing characters are:")
+    n=0
+    for i in masks:
 		#print ("A mask for", i)
 		#print ("your", i, "is", mask[i])
-		print ("you see a mask of", i)
-	ans = str(input("which do you want to pick up?"))
-	character = masks[ans]
-	for x in character:
-		print ("your", x, "is", character[x], ".")
+        n+=1
+        print (n,": ", i)
+    ans = str(input("who do you want to play?"))
+    character = masks[ans]
+
+
+    ##check to see if exists?
+    for x in character:
+        print ("your", x, "is", character[x], ".")
 
 def load_trivia():
     global questions
