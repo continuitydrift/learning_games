@@ -30,7 +30,8 @@
 
 
 ####  TODO
-####
+#### 1. add high scores
+#### 2. Make it possible to die
 #
 ####  3. enter turns
 ####
@@ -39,12 +40,9 @@
 
 
 ##      external files required are trivia.json and masks.json
-import time, random, json
+import time, random, json, pprint, os
 
 
-turncount=0
-
-total_score=0
 
 #        load names
 #        get name
@@ -58,11 +56,22 @@ total_score=0
 ####        new story
 #####    game()
 ######   ending()
+
+def main():
+    load_data()
+    start()
+
 def start():
-    global masks, character
+    global masks, character, turncount, quotes, the_score, total_score
         #initializing values
 
         #the values of the game are surprise, growth, collaboration, experimentation, learning, and thoughtfulness.
+    turncount=0
+    the_score=0
+    total_score=0
+    get_difficulty()
+    get_genre()
+    get_story()
     load_trivia()
 
     start_menu()
@@ -88,6 +97,7 @@ def menu():
     if ans=="p":
         turn()
     elif ans=="s":
+        add_question()
         save_mask()
         save_locations()
         exit()
@@ -133,7 +143,7 @@ def menu():
 #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 def turn():
-    global masks, character, turncount, score
+    global masks, character, turncount, score, status
     #print(" the turn turns")
     turncount+=1
     print (" ")
@@ -141,10 +151,33 @@ def turn():
     #for i in character:
     #    print ("Your character's",i,"is",character[i])
     time.sleep(1)
+
     turn_menu()
+    result()
     #next step:
     #trivia()
-    turn()
+    while status=="living":
+        turn()
+
+def result():
+    global the_score, character, turncount, difficulty, total_score, question_score, status
+
+    print ("you are playing at a difficulty of", difficulty, "so you needed a score of", difficulty )
+    #target=difficulty*(turncount-1)
+    target=difficulty
+    if question_score < target:
+        lose()
+    else:
+        win()
+
+def lose():
+    global status
+    print("you lose!!!")
+    status="dead"
+
+def win():
+    global status
+    status="living"
 
 def turn_menu():
     ans=str(input("Do you want to [a]nswer a trivia question, or [s]ave and quit?"))
@@ -155,6 +188,34 @@ def turn_menu():
         save_mask()
         #save_locations()
         #if you update this, also update it in the main menu
+
+def get_difficulty():
+    global difficulty
+    difficulty =int(input("At what difficulty would you like to play (1-6)?"))
+    print ("difficulty is set at", difficulty)
+
+def get_genre():
+    global genre
+#this function should 1) create a list of possible genres (eventually, this list would probably be populated from a json file like other things, with permanence)
+    genre_list=["fantasy", "science fiction", "action"]
+    count=0
+    for i in genre_list:
+        count+=1
+        print (count, ":", i)
+    genre =int(input("What genre?"))
+
+    print (genre_list)
+
+def get_story():
+    global data
+    if "stories" in data:
+        print ("stories detected. They are")
+        for i in data["stories"]:
+            print (data["stories"][i]["name"])
+    else:
+        data["stories"]= {}
+        with open("data.json","w") as outfile:
+            json.dump(data, outfile)
 
 def add_question():
     global questions, character
@@ -175,10 +236,12 @@ def add_question():
             pass
 
 def score():
-    global character, turncount, total_score
+    global character, turncount, total_score, question_score
     ans=int(input("enter your score (1-6)__"))
     total_score+=ans
     avg_score= total_score/turncount
+    question_score=ans
+    print ("you scored", question_score)
     print ("your average score is now", avg_score)
     character["xp"]+=ans
     print ("you now have", character["xp"], "xp")
@@ -352,6 +415,31 @@ def load_trivia():
         count+=1
     print ("there are", count, "questions.")
 
+def load_data():
+    global data
+    if os.path.isfile("data.json"):
+        with open('data.json', "r") as readfile:
+            data = json.load(readfile)
+        print ("The data file exists")
+
+
+
+
+        #    stories.append({"dragon":{"setup":"once there was a dragon.","good_end":"you steal it's treasure","bad_end":"it kills you."}})
+    else:
+        print ("no data file detected")
+        try:
+            #data = open("data.json", "w+")
+            data={}
+        #    stories={"dragon":"once there was a dragon."}
+        #    data.append(stories)
+        #    print ("new data file created.")
+
+            with open("data.json","w") as outfile:
+                json.dump(data, outfile)
+            #stories.append({"dragon":{"setup":"once there was a dragon.","good_end":"you steal it's treasure","bad_end":"it kills you."}})
+        except:
+            print ("file could not be created.")
 
     #  ~~~~~~___~~~~~~~~~~___~~~~~~~~~~~~~~~~~~~~~~___~~~~~~~~~~~
     #  ~~~~~/\__\~~~~~~~~/\~~\~~~~~~~~~___~~~~~~~~/\__\~~~~~~~~~~
@@ -442,4 +530,4 @@ def save_mask():
 #  ~~~~\::/~~/~~~~~~\:\__\~~~~~~~\::/~~/~~~~~~\::/~~/~~~~~~~/:/~~/~~~
 #  ~~~~~\/__/~~~~~~~~\/__/~~~~~~~~\/__/~~~~~~~~\/__/~~~~~~~~\/__/~~~~
 
-start()
+main()
