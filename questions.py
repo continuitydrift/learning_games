@@ -58,20 +58,22 @@ import time, random, json, pprint, os
 ######   ending()
 
 def main():
-    load_data()
+    load_stories()
     start()
 
 def start():
-    global masks, character, turncount, quotes, the_score, total_score
+    global status, masks, character, turncount, quotes, the_score, total_score, stories, level, average, difficulty, genre, narrative
         #initializing values
 
         #the values of the game are surprise, growth, collaboration, experimentation, learning, and thoughtfulness.
     turncount=0
     the_score=0
     total_score=0
+    average=0
+    status="living"
     get_difficulty()
     get_genre()
-    get_story()
+    #get_story()
     load_trivia()
 
     start_menu()
@@ -143,7 +145,7 @@ def menu():
 #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 def turn():
-    global masks, character, turncount, score, status
+    global masks, character, turncount, score, status, level, stories, genre, average, difficulty
     #print(" the turn turns")
     turncount+=1
     print (" ")
@@ -151,21 +153,34 @@ def turn():
     #for i in character:
     #    print ("Your character's",i,"is",character[i])
     time.sleep(1)
+    if turncount==1:
+        try:
+            print (stories["genres"][genre]["beginning"])
+        except:
+            print ("the beginning to the story is lost.")
 
+    if turncount==3:
+        try:
+            print (stories["genres"][genre]["middle"])
+        except:
+            print ("the middle of the story is lost.")
+
+    if turncount==6:
+        result()
     turn_menu()
-    result()
+
     #next step:
     #trivia()
     while status=="living":
         turn()
 
 def result():
-    global the_score, character, turncount, difficulty, total_score, question_score, status
+    global the_score, character, turncount, difficulty, total_score, question_score, status, average
 
-    print ("you are playing at a difficulty of", difficulty, "so you needed a score of", difficulty )
+    print ("you are playing at a difficulty of", difficulty, "so you needed an average score of", difficulty )
     #target=difficulty*(turncount-1)
     target=difficulty
-    if question_score < target:
+    if average < target:
         lose()
     else:
         win()
@@ -195,27 +210,34 @@ def get_difficulty():
     print ("difficulty is set at", difficulty)
 
 def get_genre():
-    global genre
+    global genre, stories
 #this function should 1) create a list of possible genres (eventually, this list would probably be populated from a json file like other things, with permanence)
-    genre_list=["fantasy", "science fiction", "action"]
-    count=0
-    for i in genre_list:
-        count+=1
-        print (count, ":", i)
-    genre =int(input("What genre?"))
-
-    print (genre_list)
-
-def get_story():
-    global data
-    if "stories" in data:
-        print ("stories detected. They are")
-        for i in data["stories"]:
-            print (data["stories"][i]["name"])
+    if "genres" in stories:
+        print ("genres detected. They are:")
+        for i in stories["genres"]:
+            print (i)
+    #    print (stories["genres"].keys)
     else:
-        data["stories"]= {}
-        with open("data.json","w") as outfile:
-            json.dump(data, outfile)
+        stories["genres"]={}
+        stories["genres"]["fantasy"]={}
+        stories["genres"]["fantasy"]["beginning"]="The heroes made their way over the mountain pass, the wild landscape of good and evil spread out below them."
+        print (stories["genres"]["fantasy"]["beginning"])
+
+
+    #genre_list=["fantasy", "science fiction", "action"]
+    #count=0
+    #for i in stories["genres"]:
+
+    #    print (stories["genres"][i])
+    try:
+        genre =input("What genre?")
+        print ("you have selected", genre)
+    except:
+        print ("I fail to understand.")
+        get_genre()
+
+    with open("stories.json","w") as outfile:
+        json.dump(stories, outfile)
 
 def add_question():
     global questions, character
@@ -236,13 +258,13 @@ def add_question():
             pass
 
 def score():
-    global character, turncount, total_score, question_score
+    global character, turncount, total_score, question_score, average
     ans=int(input("enter your score (1-6)__"))
     total_score+=ans
-    avg_score= total_score/turncount
+    average= total_score/turncount
     question_score=ans
     print ("you scored", question_score)
-    print ("your average score is now", avg_score)
+    print ("your average score is now", average)
     character["xp"]+=ans
     print ("you now have", character["xp"], "xp")
     time.sleep(1)
@@ -415,28 +437,25 @@ def load_trivia():
         count+=1
     print ("there are", count, "questions.")
 
-def load_data():
-    global data
-    if os.path.isfile("data.json"):
-        with open('data.json', "r") as readfile:
-            data = json.load(readfile)
-        print ("The data file exists")
-
-
-
+def load_stories():
+    global stories
+    if os.path.isfile("stories.json"):
+        with open('stories.json', "r") as readfile:
+            stories = json.load(readfile)
+        print ("The stories file exists")
 
         #    stories.append({"dragon":{"setup":"once there was a dragon.","good_end":"you steal it's treasure","bad_end":"it kills you."}})
     else:
-        print ("no data file detected")
+        print ("no stories file detected")
         try:
-            #data = open("data.json", "w+")
-            data={}
+            #stories = open("stories.json", "w+")
+            stories={}
         #    stories={"dragon":"once there was a dragon."}
-        #    data.append(stories)
-        #    print ("new data file created.")
+        #    stories.append(stories)
+        #    print ("new stories file created.")
 
-            with open("data.json","w") as outfile:
-                json.dump(data, outfile)
+            with open("stories.json","w") as outfile:
+                json.dump(stories, outfile)
             #stories.append({"dragon":{"setup":"once there was a dragon.","good_end":"you steal it's treasure","bad_end":"it kills you."}})
         except:
             print ("file could not be created.")
