@@ -62,7 +62,9 @@ def main():
     start()
 
 def start():
-    global status, masks, character, turncount, quotes, the_score, total_score, stories, level, average, difficulty, genre, narrative
+    global status, masks, character, turncount, quotes, the_score, total_score, stories, level, average, difficulty, genre, narrative, asked_questions
+
+
         #initializing values
 
         #the values of the game are surprise, growth, collaboration, experimentation, learning, and thoughtfulness.
@@ -71,6 +73,7 @@ def start():
     total_score=0
     average=0
     status="living"
+    asked_questions=[]
     get_difficulty()
     get_genre()
     #get_story()
@@ -270,11 +273,13 @@ def score():
     time.sleep(1)
 
 def ask_trivia(subject):
-    global questions
+    global questions, asked_questions
     count=0
     subject_list=[]
     question_list={}
+    new_questions={}
     for i in questions:
+        questions.update({i:questions[i]})
         count+=1
         #print (questions[i]["subject"])
         if questions[i]["subject"] not in subject_list:
@@ -286,12 +291,19 @@ def ask_trivia(subject):
     chosen_subject=str(input("what subject? or [a]ll)"))
     if (chosen_subject=="all") or (chosen_subject=="a"):
         for i in questions:
-            question_list.update({i:questions[i]})
+            if questions[i] not in asked_questions:
+                question_list.update({i:questions[i]})
+            else:
+                pass
     else:
         for i in questions:
-            if questions[i]["subject"]==chosen_subject:
-                question_list.update({i:questions[i]})
-
+            if questions[i] not in asked_questions:
+                if questions[i]["subject"]==chosen_subject:
+                    question_list.update({i:questions[i]})
+                else:
+                    pass
+            else:
+                pass
     #I need a way to redirect when something unrecognized is entered.
     n = len(question_list)
             #print (questions[i]["q"])
@@ -301,6 +313,9 @@ def ask_trivia(subject):
     print ("there are", n, "questions in", chosen_subject)
     if n >1:
         roll=(random.randint(1,n))
+    elif n==0:
+        print ("there are no more questions in that subject.")
+        ask_trivia("all")
     else: roll=1
     print ("roll is", roll)
     time.sleep(1)
@@ -316,6 +331,8 @@ def ask_trivia(subject):
     input("ready for the answer?")
     print (new_list[roll]["a"])
 	#	global questions_list
+    asked_questions.append(new_list[roll])
+#    print (new_list[roll]["q"], "has been added to the list of asked questions.")
 
 
 def reroll():
