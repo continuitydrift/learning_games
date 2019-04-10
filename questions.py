@@ -32,7 +32,6 @@
 ####  TODO
 #### 1. add high scores
 #### 2. Make it possible to die
-#
 ####  3. enter turns
 ####
 ####
@@ -224,7 +223,7 @@ def get_genre():
         stories["genres"]={}
         stories["genres"]["fantasy"]={}
         stories["genres"]["fantasy"]["beginning"]="The heroes made their way over the mountain pass, the wild landscape of good and evil spread out below them."
-        print (stories["genres"]["fantasy"]["beginning"])
+
 
 
     #genre_list=["fantasy", "science fiction", "action"]
@@ -235,12 +234,26 @@ def get_genre():
     try:
         genre =input("What genre?")
         print ("you have selected", genre)
+        if genre in stories["genres"]:
+            print (stories["genres"][genre]["beginning"])
+        else:
+            add_genre()
     except:
         print ("I fail to understand.")
         get_genre()
 
     with open("stories.json","w") as outfile:
         json.dump(stories, outfile)
+
+def add_genre():
+    global genre, stories
+    stories["genres"][genre]={}
+    try:
+        new_beginning = str(input("how does the story start?"))
+        stories["genres"][genre]["beginning"]=new_beginning
+        print (stories["genres"][genre]["beginning"])
+    except:
+        print ("failed to create new beginning")
 
 def add_question():
     global questions, character
