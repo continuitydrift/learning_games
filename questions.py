@@ -33,9 +33,9 @@
 #### 1. add high scores
 #### 2. Make it possible to die
 ####  3. enter turns
-####
-####
-####
+####  4. only ask to add questions at end of round
+####   5. Ask for middle if there isn't one
+####  6. Ask for appropriate end if there isn't one
 
 
 ##      external files required are trivia.json and masks.json
@@ -165,10 +165,12 @@ def turn():
         try:
             print (stories["genres"][genre]["middle"])
         except:
-            print ("the middle of the story is lost.")
+            print ("the middle of the story is lost")
+            add_middle()
 
     if turncount==6:
         result()
+        add_question()
     turn_menu()
 
     #next step:
@@ -188,12 +190,21 @@ def result():
         win()
 
 def lose():
-    global status
+    global status, stories, genre
     print("you lose!!!")
+    if "bad_end" in stories["genres"][genre]:
+        print (stories["genres"][genre]["bad_end"])
+    else:
+        add_bad_end()
     status="dead"
 
 def win():
     global status
+    if "good_end" in stories["genres"][genre]:
+        print (stories["genres"][genre]["good_end"])
+    else:
+        add_good_end()
+
     status="living"
 
 def turn_menu():
@@ -254,6 +265,7 @@ def add_genre():
         print (stories["genres"][genre]["beginning"])
     except:
         print ("failed to create new beginning")
+        add_new_beg()
 
 def add_question():
     global questions, character
@@ -272,6 +284,39 @@ def add_question():
         else:
             save_questions()
             pass
+
+def add_new_beg():
+    if "new_beg" in stories["genres"][genre]:
+        print (stories["genres"][genre]["new_beg"])
+    else:
+        add_new_beg()
+
+def add_middle():
+    global stories, genre
+    new_middle = str(input("what is the middle of the story?"))
+    try:
+        stories["genres"][genre]["middle"]=new_middle
+        print (stories["genres"][genre]["middle"])
+    except:
+        print ("failed to create new middle")
+
+def add_good_end():
+    global stories, genre
+    new_good_end = str(input("what is a good ending for the story?"))
+    try:
+        stories["genres"][genre]["middle"]=new_good_end
+        print (stories["genres"][genre]["good_end"])
+    except:
+        print ("failed to create new good ending")
+
+def add_bad_end():
+    global stories, genre
+    new_bad_end = str(input("what is a bad ending for the story?"))
+    try:
+        stories["genres"][genre]["bad_end"]=new_bad_end
+        print (stories["genres"][genre]["bad_end"])
+    except:
+        print ("failed to create new bad ending")
 
 def score():
     global character, turncount, total_score, question_score, average
@@ -328,7 +373,8 @@ def ask_trivia(subject):
         roll=(random.randint(1,n))
     elif n==0:
         print ("there are no more questions in that subject.")
-        ask_trivia("all")
+        #ask_trivia("all")
+        trivia()
     else: roll=1
     print ("roll is", roll)
     time.sleep(1)
@@ -401,7 +447,7 @@ def trivia():
     ask_trivia("all")
     time.sleep(.5)
     score()
-    add_question()
+    #add_question()
 #  ~~~~~~___~~~___~~~~~~~~~~___~~~~~~~~~~___~~~~~~~~~~~~~~~~~~~~~~
 #  ~~~~~/\__\~/\~~\~~~~~~~~/\~~\~~~~~~~~/\~~\~~~~~~~~~~~~~~~~~~~~~
 #  ~~~~/:/~~//::\~~\~~~~~~/::\~~\~~~~~~/::\~~\~~~~~~~~~~~~~~~~~~~~
