@@ -21,12 +21,8 @@
 #  ~~~~~\__\/~~~~~~\~~\::/~~~~~~~\~~\:\~~~~~~~~~/__/:/~~~~~~~~~~~~~~~~~
 #  ~~~~~~~~~~~~~~~~~\__\/~~~~~~~~~\__\/~~~~~~~~~\__\/~~~~~~~~~~~~~~~~~~
 
-#you should be able to:
-##load your own categories and questions
-##load questions by subject
-##add new questions
-##gain experience for adding an answering questions
-#
+
+#SPANISH VERSION
 
 
 ####  TODO
@@ -57,7 +53,7 @@ import time, random, json, pprint, os
 ######   ending()
 
 def main():
-    load_stories()
+#    load_stories()
     start()
 
 def start():

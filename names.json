@@ -1,0 +1,65 @@
+{
+	"Jax": {
+		"type":"first",
+		"genres":"fantasy, science_fiction"
+		},
+	"Camilla": {
+		"type":"first",
+		"genres":"fantasy, literary"},
+	"Tetao": {
+		"type":"first",
+		"genres":"fantasy, literary"},
+	"Lupe": {
+		"type":"first",
+		"genres":"fantasy, science fiction"
+		},
+	"Bresh": {
+		"type":"first",
+		"genres":"fantasy, science fiction"},
+	"Aza": {
+		"type":"first",
+		"genres":"fantasy, literary"},
+	"Toki": {
+		"type":"first",
+		"genres":"fantasy, science fiction"
+		},
+	"Beleos": {
+		"type":"last",
+		"genres":"fantasy, science fiction"},
+	"Calin": {
+		"type":"last",
+		"genres":"fantasy, literary"},
+
+	"Drantin": {
+		"type":"last",
+		"genres":"fantasy, science_fiction"
+		},
+	"Breakfoot": {
+		"type":"last",
+		"genres":"fantasy"},
+	"Deepfish": {
+		"type":"last",
+		"genres":"fantasy"},
+	"Olaphin": {
+		"type":"last",
+		"genres":"fantasy, science fiction"
+		},
+	"de Bruyo": {
+		"type":"last",
+		"genres":"fantasy, science fiction"},
+	"Onwell": {
+		"type":"last",
+		"genres":"fantasy, literary"},
+	"Remfol": {
+		"type":"last",
+		"genres":"fantasy, science fiction"
+		},
+	"Sanistol": {
+		"type":"last",
+		"genres":"fantasy, science fiction"},
+	"Longsleeves": {
+		"type":"last",
+		"genres":"fantasy"}
+
+
+}
