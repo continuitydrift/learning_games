@@ -1,5 +1,6 @@
 # learning_games
-This is a simple trivia game that lets users add their own questions, and get asked a random question within a subject.
+These are simple games written in Python, for learning and productivity.
 ##todo
-1. keep track of score
-2. rename question game to learning games
+1. Have timer.py display random images and play random music.
+2. Create an add_question file or function
+3. Each question can have a type, and then a way to keep track of how often it has been answered incorrectly or correctly.
