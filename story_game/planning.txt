@@ -1,0 +1,89 @@
+PLANNING DOCUMENT FOR STORY GAME in PYTHON
+
+CONTENTS
+
+- Description
+- Features
+- Tasks
+- Pseudocode
+
+
+
+DESCRIPTION
+
+A simple game in python that will allow players to randomly create stories based on plot elements that they add. 
+
+The game will initially be designed for a single player.
+
+FEATURES
+
+Players will be able to 
+
+-  use a sample set to create a random story with a primary and secondary character, primary and secondary event, and [primary and secondary?] conclusion.
+
+note: for testing/development purposes, I will probably just have one of each element to start with.
+
+-  enter in story elements in three different categories: characters, events, and conclusions.
+
+- randomly draw from these different elements. 
+
+- select from the elements that they like, in order to create a story.
+
+-for fun, create a kind of story in the comments of the program itself
+
+
+Inspiration for this game is single player RPGs like Ironsworn, but with a focus more on creating viable outlines and story ideas.
+
+Optional elements will be allowing users to "upvote" or "downvote" story elements, which will change their position in an array, affecting the frequency with which they are chosen.
+
+TASKS
+
+1 ~ Add something about this project to my twitch profile page.
+2 ~ Create a readme.md file?
+6 ~ add start over/wipe all elemements option to menu.
+5 ~ test starting game from scratch without data file.
+4 ~ push to Github
+3 ~ research better display (tkinter?)
+
+PSEUDOCODE
+
+~ import errors [?]
+~ import json 
+~ check to make sure data.json exists
+~~ if not, create data.json
+~ load data.json as data
+~ check to see if premade story set exists in the json file
+~~ if not, create simple story set
+~~ save simple story set to data file.
+~ welcome player
+~ menu [?]
+~~ does the player want to use a premade story set or create their own?
+
+
+METAGAME
+
+Every stream, choose six things that you want to accomplish, ranked accordingly. 
+
+At the end of the stream, roll a 20 sided dice. If the roll is lower than the total earned points, then you get a positive conclusion or outcome. Otherwise, a bad ending is incurred.
+
+Once a task is completed, it can be replaced by a new task worth the same number of points.
+
+Point total: 13 
+
+SIX THINGS TO FINISH BEFORE I STOP STREAMING (In order of difficulty)
+
+points: 9
+
+6 ~ the player should be asked if they want to keep each element, before it is added to the story.
+5 ~ if the player says yes, then the story element is duplicated in the element list.
+4 ~ if the player says no, the story element is deleted from the list.
+3 ~ the player could also choose to "mutate" the element, and add a altered copy to the list.
+2 ~ Stream for at least 50 minutes (until 10:20 CST) 
+1 x Begin Streaming
+
+
+STORY ELEMENTS FOR THIS STREAM
+
+CHARACTER: a dissolute anti-hero who shows heroism when tested by circumstance.
+EVENT: The character realizes everything he thought he knew was false.
+CONCLUSION: 
