@@ -49,11 +49,13 @@ meta_rule="You should be able to work your way through the file in one pomodoro,
 
 
 import random, json, os, time, math, matplotlib
+
+#matplotlib has to be installed in order for this program to work.
 #import timer.py as timer
 
 import matplotlib.pyplot as plt
 import numpy as np
-from error import *
+#from error import *
 #import enter_quotes.py
 
 # CONTINUITY DRIFT ~ Lambent was gone. In his place was this woman, whose body Yillah had been intimate with, but whose mind she'd never met before. Whoever she was, though, must have a cognitive map simlilar to Lambent's, or they wouldn't have been compatible.
@@ -75,7 +77,7 @@ sum_scores=0
 sum_total_words=0
 sum_total_minutes=0
 turns=[]
-main_file = "drift.txt"
+main_file = "writing_game.py"
 
 # Unless I'm mistaken, what this means is that I will have to, in order to be awarded points, move anything I write here to the drift.txt file.
 
@@ -460,7 +462,7 @@ def turn(text_file):
 #roll = random.randint(1,6)
 #t
 
-#text_file="writing_game.py"
+text_file="writing_game.py"
 #print ("temporarily, for testing purposes, making the text_file automatically this one.")
 
 side_quest="I recorded myself reading through this file, and the final thing I'll do is add this variable to the print_text function. Next time I run the program, the text file will no longer be this python program, but drift.txt.\nIn addition to the goal of swimming again in pythonian syntax, I wanted to reinstate the mechanics of Telos. You, @, are a magician. Runeshadow, a blend of everything I love. You and I, after our quest is complete, may switch characters.\nMy goal, perhaps, is simpler than yours: to kep you safe. By which I mean write a lesson plan for today. Two pomodoros, like this one, should be sufficient. This will give us an extra roll.\nMy stats are a:6,s:5,h:4,d:3,r:2,m:1. Yours are a:1,s:2,h:3,d:4,r:5,m:6.\n'We are the most basic archetypes,' you say. 'The reader and the writer, lovers whose love has transcended into practical concerns and information."
@@ -471,7 +473,7 @@ print_text()
 #str(input("The pseudo-ghost squirms into the smallest lines of code. /n what scroll do you want to open? "))
 play_again=True
 while play_again==True:
-    text_file="drift.txt"
+    text_file="writing_game.py"
     turn(text_file)
 
     ## when playing the meta-game, when you reach the end of the file you work your way backwards, function by function, room by room.
