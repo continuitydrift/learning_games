@@ -1,6 +1,6 @@
 #writing game
 
-##version 3.6
+##version 3.7
 
 
 ### |-------|   ____          -____     ____
@@ -13,12 +13,16 @@
 
 ## this game, at its core, is designed to make writing more fun. One of the unspoken assumptions is that writing has value. Another is that the writing game is as much a state of mind as anything, and therefore is really only keyed to an individual personality/associative matrix--my own.
 
-### In order to advance to version four, A user must be able to -load or create a data sheet. -set a wpm. -have daily/game statistics saved in a file, along with the date.
+### In order to advance to version four, A user must be able to
+#### -load or create a data sheet.
+
+#### set a goal of EITHER time spent writing, words to write, or wpm.
+#### -have daily/game statistics saved in a file, along with the date.
 
 ### incorporate features from dev.py
 
 
-readme="The writing game functions at a pseudo-level. Even when the code is completely broken, it is still possible to play the game simlply by reading through and then adding to this file. The text, in its plain versions, can be printed out by a print function."
+readme="The writing game functions at a pseudo-level. Even when the code is completely broken, it is still possible to play the game simlply by reading through and then adding to this file. The text, in its plain versions, can be printed out by a print function. \n Variables hidden in the drift can resurface, randomly or with changes to the superficial codes."
 
 def print_text():
     print (readme)
@@ -26,9 +30,11 @@ def print_text():
     print (side_quest)
 
 
-#
+# The print_text function can run at the beginning of the program. For this read-through, I am trying to generate 600 new words before 10:00, when I will change the stream info and start playing the table top role playing game Ironsworn.
 
-todo=["check loading mechanism","meta-rules","add story elements", "write journal"]
+
+
+# todo=["check loading mechanism","meta-rules","add story elements", "write journal"]
 
 ## make it so that you can add story elements.
 
@@ -51,6 +57,7 @@ meta_rule="You should be able to work your way through the file in one pomodoro,
 import random, json, os, time, math, matplotlib
 
 #matplotlib has to be installed in order for this program to work.
+
 #import timer.py as timer
 
 import matplotlib.pyplot as plt
@@ -79,13 +86,14 @@ sum_total_minutes=0
 turns=[]
 main_file = "writing_game.py"
 
-# Unless I'm mistaken, what this means is that I will have to, in order to be awarded points, move anything I write here to the drift.txt file.
 
 
 
 play_again = True
 
 # That was the start of it, Yillah thought. The wanting to be alive, the weight being thrown into life rather than death. Existince as opposed to absence. Words instead of silence. Colors instead of grey.
+
+# "All I ever wanted was to pick apart the day / put the pieces back together my way." --Aesop Rock
 
 def plot(turns, words):
     #This below, right here, is something that I've forgotten how to do. Drawing attention to hull breaches of knowledge can be done by adding narrative or fictive text as ancillary comments.
@@ -465,7 +473,7 @@ def turn(text_file):
 text_file="writing_game.py"
 #print ("temporarily, for testing purposes, making the text_file automatically this one.")
 
-side_quest="I recorded myself reading through this file, and the final thing I'll do is add this variable to the print_text function. Next time I run the program, the text file will no longer be this python program, but drift.txt.\nIn addition to the goal of swimming again in pythonian syntax, I wanted to reinstate the mechanics of Telos. You, @, are a magician. Runeshadow, a blend of everything I love. You and I, after our quest is complete, may switch characters.\nMy goal, perhaps, is simpler than yours: to kep you safe. By which I mean write a lesson plan for today. Two pomodoros, like this one, should be sufficient. This will give us an extra roll.\nMy stats are a:6,s:5,h:4,d:3,r:2,m:1. Yours are a:1,s:2,h:3,d:4,r:5,m:6.\n'We are the most basic archetypes,' you say. 'The reader and the writer, lovers whose love has transcended into practical concerns and information."
+side_quest="I recorded myself reading through this file, and the final thing I'll do is add this variable to the print_text function. For now, and until the Todo list is completed, the text file used for word counts is the progam itself.\n In addition to the goal of swimming again in pythonian syntax, I wanted to reinstate the mechanics of Telos. You, @, are a magician. Runeshadow, a blend of everything I love. You and I, after our quest is complete, may switch characters.\nMy goal, perhaps, is simpler than yours: to kep you safe. By which I mean write a lesson plan for today. Two pomodoros, like this one, should be sufficient. This will give us an extra roll.\nMy stats are a:6,s:5,h:4,d:3,r:2,m:1. Yours are a:1,s:2,h:3,d:4,r:5,m:6.\n'We are the most basic archetypes,' you say. 'The reader and the writer, lovers whose love has transcended into practical concerns and information."
 
 print_text()
 
@@ -478,4 +486,19 @@ while play_again==True:
 
     ## when playing the meta-game, when you reach the end of the file you work your way backwards, function by function, room by room.
 
-    ## your quest this time is to get the game to read from an external json vile for the stories.
+    ## your quest this time
+    ## is you add 600 words to this file.
+
+    ## This itself can be a kind of show, a performance. You score yourself, based on your goals, between one and six. The writing file, the text file, whichever one you use in the writing game, is not the permenant home or destination for the words that you create.
+
+    ## For example, after I fail or meet the challenge of 600 words that I set myself in this stream/iteration, I will cut and paste the text below into a file I'm creating for IRONSWORN.
+
+    ## It's 10:08 on a Sunday. There are ways of spending my time that would probably serve the coin-gatherer version of myself more than broadcasting random streams into the internet, but the hypothesis on which these games proceed is that everything is connected.
+
+    ## The crucial stat, the feedback most relevant in a creative/biological system, other than simple breath, is enthusiasm. Learn how to maintain focus, and slowly climb the turtle-steps of goals, and everthing else will have already followed.
+
+    ###  IRONSWORN
+
+    ## Adda
+
+    ### She fell the forest floor, exhausted by becoming, for hours of moonlight, something roots extending directly into the Earth. She had felt an unmitigated closeness to the soil, rife and rambling with generation and decay.
