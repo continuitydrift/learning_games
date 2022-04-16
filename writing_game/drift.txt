@@ -1,47 +1,4 @@
-I might make this into a Patreon video. My patreon account has been up for a while now, and no one has signed up for it.
 
-There is an upfront investment required of your own personal brand and promotional energy. There is also something slimy about the subscription method, a resistance I'm not certain if I want to overcome.
-
-What, then? Why think about it at all, instead of just posting any video content that I create directly onto some other platform?
-
-One answer is that it works as a kind of private rehearsal space for digital strategies, which doesn't cost me anything to make pseudo-public, since it is something that I would be doing anyway.
-
-I have too many ideas, and too little focus.
-
-WRITING GAME
-
-There is, however, a simple stat that I can focus on, one that I have a way to display on https://newlanguagestudio.com. The number of words that I've written in 2021.
-
-It is early in the morning on a Tuesday. I have a coding class that I'm teaching at 1 or 2, and then dungeons and dragons from 5-7.
-
-This file is located in a writing game, which is a public repository at https://continuitydrift.github.io.
-
-NATURAL LANGUAGE PROCESSING
-
-I was just thinking about a guy who was possibly going to pay me to do a python tutorial. He just told me this morning that he would have an answer for me in a few months, until after the launch of another course.
-
-There are a lot of different directions I could go in with the rest of the time I have at my disposal today. I could apply for the jobs I have on my list, or I could work more on my web page, or newsletter.
-
-My biggest advance yesterday was figuring out how to use an email marketing service. I got one person to sign up for the mailing list.
-
-I probably shouldn't stream, since I'll be doing that for three hours already.
-
-Those two things are enough, for today: apply for jobs, write to W, and develop the DnD universe for the kids I'll play with in the evening.
-
-This video/session will be 25 minutes long. It has felt longer than that, to be honest. Like meditation, I have to fend off the pull and hooks of other projects and modalities.
-
-It is worth, it, though. I'm going to start building up a repository of videos to edit together.
-
-The first blog post I write can be on getting strung along for jobs, and freelancing vs. corporate mindsets and attitudes.
-
-I was just thinking about web design, again, as I was when I woke up, first thing. There is also the Improvised Learning Project. Here, I suppose, are my priorities for the week:
-
-1. Apply for jobs
-2. Get website functional
-3. be a good game master
-4. eat well and exercise
-5. write an article
-6. edit Improvised Learning
 
 It can be like this: drift on the left side, continuity on the right.
 
@@ -76,6 +33,18 @@ By looking backward with so much love and adoration, part of you fears that you 
  elasticity
   my own ability to return to a sense of consistent self
    after strange voyages."
+
+___
+
+# 4/16
+
+I'm revisiting this repository after a long time. There are certain tasks that I can undertake to improve it, to get into the rythym of pull requests and commits.
+
+1. Import the quote-machine here.
+2. Set it up so that the start.py program runs whenever I start the computer
+3. add questions to questions.py
+4. create a git.ignore file and figure out how to use it.
+
 
 
 
