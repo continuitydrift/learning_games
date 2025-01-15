@@ -1,8 +1,217 @@
+The Drift
+
+Pluripotent metaphor
+
+rehearsal space for digital strategies,
 
 
-It can be like this: drift on the left side, continuity on the right.
+content
+scoured and sugar-licked.
 
-This was from the public readme.md.
+WRITING GAME
+
+This is a game about writing, that you win by writing words. In a way, all attempts at quantification fail, becoming stale as they no longer even gesture towards the thing they were meant to measure. This game, though, because you are writing.
+
+Whatever you are reading currently, whatever you are writing, that is the thing. Those are the rules.
+
+In the same way that you shouldn't go through life with a bored elevation over phenomenal existence, so to should you pledge, now and forever, to love the things you read, or write, and seek to make them better.
+
+
+## 1/5/2021
+
+Let's stay with this file for a day, making this file the only one in the entire repository. Not necessarily exporting the content, or destroying it, but repurposing it, letting it phototrope upward in a new direction.
+
+Whatever python code that is running now, we can start there, build an ecosystem outward.
+
+### Goals.
+
+{"teach lessons": 3, "publish Shashwat's games": 4, "read and annotate Only the Strong Survive", "write to DR": 6, "draw comic": 5}
+
+
+## 12/2/2021
+
+### Crypto
+
+Money becomes something other than money. That is the point. It is the membrane between expectation and reality, between promise and delivery.
+
+Consumption is a performance for which we should be paid.
+
+
+On the other screen right now, is [this](https://archive.org/details/C64Videoarchive164-AgentUSA?autoplay=1&playset=1).
+
+In this old pair of headphones, which I had running away from zombies in Mexico, is music from the free music archive, like [this bear] (https://freemusicarchive.org/music/Podington_Bear/Piano_IV_Cinematic/Bittersweet_1577)
+
+#### Air Drops
+
+In order to claim potentially lucrative air drops, you usually have to do several things, like
+
+- join their telegram group
+- join their discord channel
+- like their page on facebook
+- retweet something about the airdrop on twitter
+
+In order to get financial value of the airdrop, you have to (at best) stake, or (at worst) sell your credibility, and that of your social media accounts.
+
+I want to reverse this process, to sell out or call out air drops as a way of unfairly extracting value from a system, in order to boost my own legitimacy as a channel of insight and information.
+
+I've been streaming so much, it's almost strange to be able to write like I used to, unwatched, able to takes breaks without announcing them.
+
+I put DJ cutman, which was playing from the laptop on the bed, on this computer, so now it is coming from behind me, and through the headphones, like some poor person's version of surround sound. I turned the sound on, too, from the C64 longplay from archive.
+
+Living the overstimulated dream.
+
+The precision with which the player in the video executes the jumps and evasions is both fascinating and anxiety inducing, those mirror neurons firing, controlling a phantom joystick.
+
+#### Procedure
+
+If I use standard markdown, and export this to a directory that I review later, then the journal could be used as a feeder for other writing.
+
+For example, I'm reading the book Bad Kansas. I could start a book review, bringing in that trip to Lawrence to buy a mandolin, visiting Carol. Seeing her again at the arboretum, her giving the book back to me.
+
+12/3/2021
+
+I am a writer. Sitting here, like I've trained myself to do, drinking rather than eating dinner, digesting my experiences with crypto.
+
+Here's what I wrote in the black notebook I'm keeping:
+
+There is a game, or a platform, called Defi Kingdoms, where you can liquidity mine with real money in a zelda-like fantasy world.
+
+The floating island that Orto ends up on at the end of the first novel can be a home base.
+
+12/4/2021
+
+There is a reason why you are here, reading this file. This journal entry from December.
+
+In addition to the defi kingdoms game, I might go back to Lost Relics, although my graphics card is insufficient. Do simple farming.
+
+
+
+## 10/17/2021
+
+
+The length for one of these entities, as they develop, would be one that would justify it's own file, its own identity as a NFT.
+
+So, at its most basic, a web comic could be a notecard, with concept art on the unlined side, and then the reduced message of a "page."
+
+### Documentation
+
+There are, potentially, some sections of journalistic entries that could migrate into development notes.
+
+### Personal Statement:
+
+##### I'm sending this, first, as an email to people that I know, which I believe in itself is a kind of statement of personal methodology: my public facing voice is one I cultivate with friends. An ideal position (job) for me would be one in which the descriptive language I hear in my head intersects with that in which my role allows me to speak.
+
+##### Eventually, what, some sixth gate, so pushing outisde of the game space into the atmosphere of pure metaphor. i get you, I understand.
+
+###### Another technique would be to start here, at this ridiculous level of indentation, and work backwards.
+
+###### Every descent into another level has to be seconded, or that branch is subject to rot and exclusion. What do we find here, at this level of abstraction? A faith in the timing, the method, if nothing else. The ability of days and beats of heart and turns in beds can stack up to meaning.
+
+##### The value of symbols can only be measured in their application to different contexts and experiences. Sometimes, value can be discovered, or improvised. Other times, growth requires selection. Admission that a choice was sub-optimal.
+
+## 8/12
+
+There could be sections in this drift file that I harvest for other folders, other branches of the tree.
+
+## 10/16/2021
+
+One of these is here, the journal. The idea of it goes back a long way, before even the blank notebook Erin Marie gave you Sophomore year.
+
+My mother died a couple weeks ago. Already my psyche is normalizing, filling in the absence left by thoughts of other things. The 25th year high school reunion tonight, for example. How late I should show up, and if I should leave beer in the car, or pick it up afterwards.
+
+A momentous occasion. A good gimmick for a role playing game. People come up with characters, roll some dice for random conversations, random memories that pop up into the other person's head. Am I really up for this? What's the other possibility? Not going, staying in my room. At least I will go out for alcohol, that much is certain. And a drink at Tanners, and leave after that unless I find someone whose company I am genuinely enjoying. The potential for observation is worth the risks of being observed. See what people give away with their bodies, clothes, and tones of voice. Whose marriages are probably happy, or probably not.
+
+
+CRYPTO
+[DELETE FROM HERE]
+I learned, provisionally, temporarily, about how to get static webpages to display locally. Unfortunately, a large part of the answer was, to use a Mac. Now, knowing the time and energy it would take to do a webpage like this properly, I'm more reluctant to put up something clunky, low-effort, and amateur.
+
+I'm not, however, getting paid anymore, and back on the self-study plan of devoting surplus hours and heartbeats to things that will keep my heart beating in the future: the glow.
+
+The newsletter I envisioned because derailed because it ventured into profitability. You get caught in the gravitational wells of monetization.
+[TO HERE]
+
+There are all different kinds of narratives, competing for primacy. There is no shortcut to actually learning about the different coins and their communities. There are different factions, but really they are different strategies for reporting to the whales, the big investors, they money of money. Speculation in the financial rather than narrative sense.
+
+There was a lot of information to absorb, a lot of things that my co-workers assumed that I would know, but didn't. Everything I knew about technology and technical writing I had collected in my own haphazard way, not prioritizing for profitability, more as a hobby. Algorithmic trading was interesting enough, and overlapped sufficiently with existing interests, to motivate me to become proficient enough to work at, briefly, a professional level.
+
+## Crypto: Dinner
+
+I was at a dinner in an ecovillage, and there was a guy who I was told I needed to talk to about cryptocurrencies. He asked me what pairs I was trading, and I told him about the bots I was running on Kucoin. There was Aglo-USDT, although I had to explain, "I know that Tether is problematic, I've just been running that one for a while..."
+
+There is a lot online about how Tether's claims about how the stable coins that they issue aren't, as the company claims, fully backed by US dollars. Tethers account for a huge proportion of value flowing into the cryptocurrency ecosystem, and if Tether crashed, it would take a lot of the other coins down with it.
+
+"Bitcoin is like the facebook of crypto currencies. Not even the facebook. The myspace. Do you agree?"
+
+I said sure, although I wasn't.
+
+# Wave energy
+
+I've been teaching kids online how to design simple video games. Here's how you could do a wall of fireflies:
+
+1. Using a loop or timer, run through a sequence that randomly generates white circles.
+2. Change the background color to 0% red, maybe 10% green, and 15% blue. That should be a forest and sky at night kind of shade.
+3. Create another timer, that shows and hides the circles.
+4. (optional bonus step) create larger, off-white or pale yellow circles, that grow brighter and dimmer, or more and less transparent.
+
+The next step would be to turn it into an NFT. Or a time lapse of an actual painting, with washes over the different layers of lights. Like traffic in a bees nest turned on its side. No red or green, always yielding, pulsing slow.
+
+I've been listening to podcasts, usually as I walk or run. Alarmist climate change interviews, in one of which the guest was talking about the inevitable draw-down of petroleum use, and the manifold consequences of that petering out of peak oil. We will need to consume, like, a billionth of the energy we're consuming now.
+
+The wooden world. As in only consuming biomass, only heating with peat and trees, eating closer to the sun. No industrial furnaces over 340 degrees celsius.
+
+On the other hand, I've heard wooden world as the "wouldn't" world, as in wouldn't you rather it be this way, different. I imagine a tide pool, either on the coast or in the natural, undammed and undamaged floodplain, where you harvest the hydroelectric sine-waves. The coastal version might use most of their output to desalinate water, to drink or feed aquifers or irrigation. The river version: who knows, maybe a kind of steampunk boat that trawls the Missouri or Mississippi for marks in a cryptocurrency gambling scheme.
+
+The sine wave, though. Wave energy. Something plotted over time. Periods within larger periods, melodic fragments fractally repeated. The heart as a coherent organism.
+
+~
+
+"I was reading about your Heartmath stuff in a book," I told my uncle. Later, I went and got the book, showed him where I'd drawn a rectangle in pencil around "Hearthmath Institute in x, california". By focusing on biosignals, one could induce greater coherence along heartbeat, breath, and brain. Entrainment.
+
+# Meta
+
+Yes, games in outer space.
+
+The group of friends that loves each other, that represents the kind of kinship bonds you instinctually want to model, hovers over the surface of the planet, which is quite simply an abstract psycho-dramaturgical representation of whatever conflict comes to mind.
+
+The one chance of change I had, and failed, and became embedded as a stage of infinite second chances, a revisitation and reinstallment, but only subquests that can be played at higher levels of difficulty. Subdivided further into sidequests.
+
+Let me be honest. Actually getting programs to work seems difficult right now.
+
+Yet in that difficulty
+gamification
+
+Another possibility is this: you stay here, in this file, looking at exactly this point of manifesting ink,
+
+and
+
+set the trap a bit deeper. A program that can divide up lines
+so that where there was a comma
+there is instead a new line
+
+New sentences get a line break
+
+The ship managed to escape the planet. The table with the maps was different, but the same. Everything shifted. They were no longer together, and never had been. Nor, in this dimension, would they ever be. At first Tristano felt an incredible sadness, and then felt different, more diffuse feelings of love flood in to fill the emptiness of the wake.
+
+"I'll find my way to one of the hub planets, where the sphere was broken long ago. I'll find the Isabella of this dimension, and leave the last world's alone."
+
+Four years later, though, Tristano still was on his own. There was a reunion planned, from the students of his home town, friends that he always felt a little bit removed from. Not superior, just different. From another world.
+
+
+~
+
+The deer is already shying away before you knew it was there. Retroactively, you recognize a rustling.
+
+
+The conductance, 
+the ability to be conductive, 
+to let something pass through you.
+
+
+"Think," the older woman with curls says, "remember the things you want to take out of the dimensional story." You know that there is limited time and space for all of the things you would like to remember, and experience.
+
+By looking backward with so much love and adoration, part of you fears that you are tilting the bar downwards in the future, that you are poisoning some well of transcendent information. You need to let go of childhood, of the past, logic tells you, but what is logic without the love that gives reason to reason, that embodies the will to put philosophy into practice.
+=======
 
 
 ___
@@ -17,23 +226,248 @@ I'm revisiting this repository after a long time. There are certain tasks that I
 4. create a git.ignore file and figure out how to use it.
 
 
+   <!-- I think more deeply and reliably, when I try to put my thoughts into writing. More so when the end game is sharing those written thoughts with readers whose opinions are important. Postings things like this is how I draw informational nutrients from the buried root structures of memories, the weird mycelial connections to grounded Earth. -->
+
+What then, how does it return? The deer that I saw on my run. There were two of them, actually. Combined with the inspiration I had about getting points, in the game, for sleep. The two deer can be connected to two in-game quests, and two real life tasks.
+
+Edit the trees of present and future.
+
+
+Second deer: 5 xp. Create a document called Personal Statement. Fill it up with at least six paragraphs.
 
 
 
+# Speculative Fiction
+Writing is a powerful way of telling stories and modelling the world. Games, though, like work and language, should loop back into the actual Earth.
 
 
 
+~
 
 
+The poemify program can eat files and language. Store them in a seperate JSON.
+
+POEMIFY
+
+memes: ["This is the meme of memes that has been stalking your thoughts. A fragment is displayed. Then the user rates it from one to six.": 4]
+
+6. Two copies are made
+5. One copy is made.
+4. no copies, no mutation
+3. no copies, mutation
+2. deleted
+1. All copies deleted
 
 
+What kind of a thing am I chasing? Or is it more tunneling, more planning my escape and decorating the Silo? I'm trying not to look away, leaning into this, experiencing it fully. The way that happens is with words, but not just the sloppy slathering into the vacuum, but the careful teasing out of patterns that emerge, heightening and adjusting the visual effects.
 
+That's one thing I remember from playing this game before: a twenty-five minute turn is longer than you remember.
 
+~ CONTINUITY
+
+I ran until the batteries on my phone were almost gone, and then saved the run and went a little more in the dark.
+
+~~ THE MYSTERY
+
+Grading, maybe, into horror. A brief vignette, a terrified heroine, clutching a kitchen knife, waiting for the intruder's steps to stop creaking on the floorboards.
+
+There is a terror response. A blinking open into something knew. When reality is unbearable, the multiverse sometimes answers with a tear, a jolt, and a lucid vision inseparable from extended hallucination, temporary madness.
+
+I was asking myself this morning, what project most readily breaks through apathy and procrastination? No, that was from an entry of the day before. This morning I repeated the question format: If this were an ideal turn, one growing towards a sunlit hint of teleology, what would that look like? How would I be standing or breathing?
+
+I and the pseudoghost share narrative space, stand in this ambiguous first person.
+
+There can be different roles. I am adaptable. My writing, my craft, can be put to different uses.
+
+I would like to contribute to some kind of a open source documentation team.
+
+The old problem: too much time aimlessly writing, and not enough time studying, evaluating, and editing the words you've already produced. There isn't, really, a shortage of time. There is a shortage of something else. Purpose. Meaning. Magic.
+
+Tree Laugher jumped. The vine carried her farther than she had hoped, breaking free and then catching, in a breath-stealing and bone-juddering jolt. The downwards arc swung her chillingly close to the ice, the frozen patch floating on the warmer margins, the constant differential of heat producing an ecotone of mist, with its own library (the word meant something different to her) of species.
+
+That little bit of syntactic contamination might be my fault. It's impossible to observe without destroying. By drawing her up into language, I obscure her story with my own.
 
 
 
 If I type into this file, it should update the word count in the program running from the terminal.
 
+testing. One two three. 
+
+~
+
+opposite of rules,
+
+EMERGENT
+
+Oh shit, I forgot.
+
+Yet remembered, reintegrated and revised.
+
+Let there, why not, be secret files of the vilest reportage, a back channel directly into whomever snoopes the files, or those to whom, at a later point, I grant access to these hales of unfinished scooping.
+
+Scape of undignified
+cruising
+
+This is how I stay winter warm
+splinter storm
+blister balm and spring.
+
+Let there be the new opposites
+of rules
+bright green centers of suggestive growth.
+
 Now, there should be seven more words.
 
+Typing while listening to music is a thing.
+
+At the writers group the last 25 minutes of a meeting could be looped into the first 25 minutes of he next, with a microphone in the middle of the table, picking up pencil scratching and keyboard tapping.
+
+This is the first level of the choose our own adventure, either because you are starting here or have sent back here by death or some other calamity.
+
+"There could be a novel," the harlequin was saying, "where everyone is wearing masks, all characters fictionalized and anonymized so as to not be recognized by..."
+
+"A novel?" Tristano asked. Intense eyes, the love-starved longing. 
+
+"Well, let's call it a game. A game that could turn into a novel."
+
+It's hard to focus for even 25 minutes. This file is perhaps not the best place for a candid assessment. On the other hand, where would be? And as long as I am conscientious about cleaning a space after I use it, moving any worthwhile parts of writing to other places and deleting anything that doesn't need to be here, like this paragraph.
+
+"Did you hear that?" Tristano said. He was preoccupied with things changing, ending, turning into something else. His emotions could shift at his command. He could feel happy or sad whenever he willed it. Usually, his affect was hollow.
+
+"No," the harlequin answered, "but I felt it."
+
+"No character is safe here," Tristano said. "We need our flying carriage. The garden, the forest and the orchard."
+
+The harlequin took in a deep breath, "The mountain path. The pool with the brightly colored fish."
+
 This should now create a new entry.
+
+Okay, I'm going to type into this file for around 15 minutes.
+
+I'll try to keep an eye on the OBS window in case anyone else pops into the chat.
+
+There are a lot of projects that I am drawing in pencil on the first layer. Some guy holding a torch, in torn and patchwork clothes. A tatterdemailion, a harlequin, a delver of the depths.
+
+Here is my idea for a development cycle:
+
+# Development Cycle
+
+There are four people I am thinking of paying 200 dollars each to take place in a
+
+## Projects
+
+7/21/78
+
+I was wondering today about astrological signs, if there might be something to it, in the sense that seasonal variations of climate and diet might historically have had some importance on the characteristics of a newborn. Of course, those effects would be specific to climates and hemispheres, so it would go against universalizing claims about destinies written in the stars or planets.
+
+So this day of the year, the half-sweltering season of mosquitoes, on moon cycle after the solstice. Decisions deferred, living the reality of skill that, were they applied correctly, would be useful to other people.
+
+This file, indicative of the risks and mixed purposes of my tapping out this tune with my fingers.
+
+A birthday gift to myself, a new bright thread to weave into existing continuities. The melody to Blackberry Blossom, and also the Bossa Nova album by Dave Brubek.
+
+Brandon called me. He's started swimming in Lake Michigan, with some sort of swim-shoes, like miniature paddles.
+
+I was going to write letters to all of my family members, but didn't. What would I say? Another doomed attempt to rally a super-organism?
+
+
+The solution was an obvious one.
+
+There is no danger of pushing a commit unless I have changed it to what I want.
+
+This work is at least as useful as watching a television show. You can start with that as a baseline.
+
+# HERE
+
+You are.
+
+Acknowledge that you are a physical creature. That, perhaps, sitting too long in a chair is uncomfortable, and that editing video or writing code is hard.
+
+Take a short break, and the do this:
+
+- Finish Scene 2
+
+If you do so, then you will gain a level in the meta game, for whatever character you like.
+"""
+
+What comes to mind as the easiest shift, the top-most shit in the toilet of your brain?
+
+Hold your own scarecrow up for autopsy. Straw heart and wooden head. Follow the flying gold bug.
+
+
+
+If things go accordingly, then there will be new experience added for each of these words, at least temporarily.
+
+    '''
+This, I think, should also be a comment that doesn't run.
+    '''
+
+As should this.
+
+Scapin opens a scroll, one that her touchstone led her to. It is [1d6 = 1] a scroll of attacking.
+
+Time for a navigation or narrative roll. 2d6 = 11. Unlikely good event. Let's say that scapin meets capitano.
+
+Two characters, two different quests.
+"""
+
+
+# FEARS
+
+Let's confront, up front and foremost, the conclusion, the end towards which the narrative is trending.
+
+Notice, first of all, how difficult it is to sit down and type, to read these words as they appear. A written version of you, even a fictionalized one, appeals to your better angles. It knows that authenticity cannot be manufactured or produced. Certain exceptions may apply.
+
+The location of this file is pseudo public. It chronicles the development of the writing game, as well as the meta game.
+
+There is point enough in keeping gears in working order, in keeping fields elastic, frequencies audible and visible.
+
+There is a crew on an airship. The planet they are leaving isn't in as much danger, presently, as they are, so they drift up into the upper atmosphere, where the net makes things dicey, vowing to return.
+
+Only after a while, though, only when they are stronger. That is their play, as a band, a mismatched loose alliance of outlaws and trouble makers.
+
+I was, at that point, a kind of spirit infused in the magic, the runes, of the air-ship. Doing intellectual labor in exchange for incognito adventure. Turns out that unless you have some kind of puzzles to solve, you go insane when infused into objects. Wood works better when there are insects, or the ghosts of them.
+
+Here is the cusp: the difference between present and past tense. Once they leave the atmosphere, once they pass through the gate,
+
+ERROR: Turns is not defined.
+
+Don't fear time, or it's approach. Grab for it, as an ambassador of different projects. Say: this is worth your breath, so stop holding it. Don't belabor labor, don't stress too much about navigation, just appreciate the oars.
+
+~
+
+This was prescient. There can be xp rewarded for removing words from a file, just as there is for adding.
+
+I was also thinking that the character info could go at the beginning of the file. I could even write a program for scraping the data from the top.
+
+This is a "meta" turn.
+
+Did you type or read screens until 5:00? If so, 6 points.
+
+The video file is ending up on the external hard drive. Particular files can, or should be, keyed to focii, physical charms and mnemonic touchstones. There are always gestural gateways. From this file, for example, there is a door to DANCING RABBIT
+
+# Dancing Rabbit
+
+There were more fireflies than I had ever screen, like the the night was over-developed film, or someone had sped up my perception of time, and I was watching the blinking of six minutes of insects in one. It's amazing to think that such tiny creatures, with diets of grass blades or whatever they eat, can photo-luminesce, synapses flashing in a swarm mind, the night thinking to itself in those glow-lantern exoskeletons.
+
+I was on a tent platform on "revolution avenue," a little off the main courtyard, nearby an old pond with a doe that would visit in the morning.
+
+The first visitor I talked to was S, who would leave after a few days, pulling his tent down in the rain. Here are some things that I will write because this is a draft, even if it is a recorded one. The medicated world, the one that it is easy sometimes to fall into, a digital trap that this time, this screen, this sort of thinking and subordinating the entire body to fingers and eyes (ears, too, with music), is the gateway to.
+
+You have to be able to escape the dungeon. S couldn't. He had planned and tried to execute a kind of desperate escape from his own body, appetites, ailments. There was a weird rash on his back and neck. He couldn't walk very far, and had a little fan that fit around his neck like a harmonica.
+
+A TOW
+
+The small gravel road, cresting a rise, turned suddenly into mud, and it became inadvisable to go either forward or back. After a few attempts at reversing up the rise, it became clear we would have to call a towing service. It was Sunday. It would be hundreds of dollars, and an hour or so wait. We had been planning on arriving in Rutledge early, though, so Max could get a haircut.
+
+
+ The clock has started on this game, and who knows how much time is left to type enough words for drift, the character, to survive.
+
+
+ Striganona was a witch, who had a pot of never-ending pasta, a cornucopia of noodles, overflowing with a delicious sauce base of onions, garlic, and tomato.
+
+ Her apprentice tried to use the pot when she was away, but, while able to start the spell, they were unable to make it stop, and pasta overflowed the pot, then the kitchen, pushing out of the windows of the witch's hut. Spaghetti engulfed the nearby village, filling the streets, causing people to flee their homes.
+
+ "How do I make it stop?" the apprentice asked Striganona, tearfully, when she returned.
+
+ "Simple," the witch replied. "Say thank you."
