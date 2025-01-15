@@ -84,4 +84,26 @@ def create_card(name, description="", notes="", xp=0, level=1, a=0, s=0, h=0, d=
 
 def check_setting_deck():
     """Check if the setting deck exists and load it."""
+
+
+
+
     
+ """   
+~~~
+
+drift
+
+m:6,r:5,d:4,h:3,s:2,a:1
+xp(words): 0, lv:1, x: 0, y: 0 z: 0 notes:{type: mage, subtype: chaos}
+
+~~~
+
+# rule
+#rulez
+
+A spell to imbue scrolls with power.
+
+Every time you open this file, or any other associated with the drift, **there will be a condition to resolve the hex, and then various ways of escaping.**
+
+Drift has a speed of two, which means that he can only escape when the entropy counter gets to two or below."""
