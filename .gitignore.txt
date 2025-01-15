@@ -1,1 +1,1 @@
-drift.txt
+/writing_game/drift.txt

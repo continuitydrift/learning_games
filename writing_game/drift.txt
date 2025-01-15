@@ -36,6 +36,7 @@ Money becomes something other than money. That is the point. It is the membrane 
 
 Consumption is a performance for which we should be paid.
 
+
 On the other screen right now, is [this](https://archive.org/details/C64Videoarchive164-AgentUSA?autoplay=1&playset=1).
 
 In this old pair of headphones, which I had running away from zombies in Mexico, is music from the free music archive, like [this bear] (https://freemusicarchive.org/music/Podington_Bear/Piano_IV_Cinematic/Bittersweet_1577)
@@ -210,20 +211,20 @@ to let something pass through you.
 "Think," the older woman with curls says, "remember the things you want to take out of the dimensional story." You know that there is limited time and space for all of the things you would like to remember, and experience.
 
 By looking backward with so much love and adoration, part of you fears that you are tilting the bar downwards in the future, that you are poisoning some well of transcendent information. You need to let go of childhood, of the past, logic tells you, but what is logic without the love that gives reason to reason, that embodies the will to put philosophy into practice.
+=======
 
-"We only have six scenes," the bar-keeper says, with the smirk of a drifter, "the meta-game is to win by putting as much story into them as possible."
 
-"Here is the reason why letting yourself read previous writing of yours is related to getting over a fear of fond memories, let's call it: both involve a subordination to a previous incarnation of yourself, an abandonment of the principle of teleology, or progressive evolution."
+___
 
-"So childhood isn't inferior to adulthood, in term of comprehensive energies?"
+# 4/16
 
-"No."
+I'm revisiting this repository after a long time. There are certain tasks that I can undertake to improve it, to get into the rythym of pull requests and commits.
 
-"Before I
- was still figuring outwards
- elasticity
-  my own ability to return to a sense of consistent self
-   after strange voyages."
+1. Import the quote-machine here.
+2. Set it up so that the start.py program runs whenever I start the computer
+3. add questions to questions.py
+4. create a git.ignore file and figure out how to use it.
+
 
    <!-- I think more deeply and reliably, when I try to put my thoughts into writing. More so when the end game is sharing those written thoughts with readers whose opinions are important. Postings things like this is how I draw informational nutrients from the buried root structures of memories, the weird mycelial connections to grounded Earth. -->
 
