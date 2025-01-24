@@ -1,0 +1,56 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Function to draw a hexagon -->
+  <defs>
+    <g id="hexagon">
+      <polygon points="50,25 75,0 125,0 150,25 125,50 75,50" fill="none" stroke="black" stroke-width="1"/>
+      <!-- North -->
+      <line x1="100" y1="0" x2="100" y2="-20" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="105" y="-5" font-family="Arial" font-size="8" fill="blue">N</text>
+      <!-- South -->
+      <line x1="100" y1="50" x2="100" y2="70" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="105" y="65" font-family="Arial" font-size="8" fill="blue">S</text>
+      <!-- Northeast -->
+      <line x1="125" y1="25" x2="145" y2="25" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="130" y="20" font-family="Arial" font-size="8" fill="blue">NE</text>
+      <!-- Northwest -->
+      <line x1="75" y1="25" x2="55" y2="25" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="60" y="20" font-family="Arial" font-size="8" fill="blue">NW</text>
+      <!-- Southeast -->
+      <line x1="125" y1="50" x2="145" y2="70" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="130" y="65" font-family="Arial" font-size="8" fill="blue">SE</text>
+      <!-- Southwest -->
+      <line x1="75" y1="50" x2="55" y2="70" stroke="blue" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="60" y="65" font-family="Arial" font-size="8" fill="blue">SW</text>
+    </g>
+  </defs>
+
+  <!-- Draw the grid -->
+  <g font-family="Arial" font-size="8" fill="black">
+    <!-- Row 0 -->
+    <use href="#hexagon" x="0" y="0"/>
+    <use href="#hexagon" x="150" y="0"/>
+    <use href="#hexagon" x="300" y="0"/>
+
+    <!-- Row 1 -->
+    <use href="#hexagon" x="75" y="65"/>
+    <use href="#hexagon" x="225" y="65"/>
+    <use href="#hexagon" x="375" y="65"/>
+
+    <!-- Row 2 -->
+    <use href="#hexagon" x="0" y="130"/>
+    <use href="#hexagon" x="150" y="130"/>
+    <use href="#hexagon" x="300" y="130"/>
+
+    <!-- Row 3 -->
+    <use href="#hexagon" x="75" y="195"/>
+    <use href="#hexagon" x="225" y="195"/>
+    <use href="#hexagon" x="375" y="195"/>
+  </g>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="blue" />
+    </marker>
+  </defs>
+</svg>
